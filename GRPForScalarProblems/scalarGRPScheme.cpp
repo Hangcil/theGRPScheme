@@ -172,7 +172,7 @@ vector<vector<double>> scalarGRPScheme::getNumericalResult()
                 {
                     RiemannSol = U_atStagered_r;
                 }
-                else if (shockDir >= 0.00001)
+                else
                 {
                     RiemannSol = U_atStagered_l;
                 }
